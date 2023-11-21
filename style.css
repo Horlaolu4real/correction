@@ -1,0 +1,212 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+
+
+body {
+    margin: 0%;
+    border: 0%;
+}
+
+
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0C1B;
+}
+
+.wrapper {
+    display: inline-block;
+    width: 450px;
+    height: 340px;
+    background-color: #1C1938;
+    padding: 37px 80px 33px 30px;
+    border-radius: 11px 0px 0px 11px;
+    margin: -2px 0px 2px 0px;
+    
+
+}
+.image-wrapper {
+    /* background-color:  rgba(158,85,227,0.4); */
+    
+
+}
+.mobile {
+    display: none;
+}
+/* .image-wrapper {
+    position: relative;
+    width: 520px;
+    background-image: url(images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 410px;
+    border: 2px solid red;
+    z-index: 100;
+} */
+
+/* .desktop-wrapper {
+    background-color: rgba(158,85,227,0.753);
+    width: 520px;
+    height: 410px;
+    border-radius: 0px 10px 10px 0px;
+    z-index: 100;
+    position: absolute;
+    top: 3100px;
+    border: 2px solid red;
+} */
+
+
+   .desktop { 
+    display: inline-block;
+    width: 520px;
+    height: 410px;
+    border-radius: 0px 10px 10px 0px;
+    background-color:  rgba(158,85,227,0.4);
+    z-index: 10;
+
+
+} 
+
+.inner-header {
+    color:#FEFFFF ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+
+}
+
+.inner-paragraph {
+    color: #8A87A1;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.span-digit {
+    display: flex;
+    justify-content: space-between;
+    color: #636278;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.span-number {
+    color: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family:  'Inter', sans-serif;
+}
+
+
+@media only screen and (max-width:600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: #0A0C1B;
+    }
+    
+
+    .wrapper {
+        order: 2;
+        display: block;
+        height: 450px;
+        width: 260px;
+        border-radius: 0% 0% 5% 5%;
+        background-color:   #1C1938;
+    
+
+    }
+
+
+    .desktop {
+        display: none;
+    }
+    .image-wrapper .mobile {
+        order: 1;
+        display: block;
+        width: 370px;
+        height: 200px;
+        border-radius: 5% 5% 0% 0%;
+        
+        
+
+    }
+
+
+    .inner-header {
+        text-align: center;
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    .inner-paragraph {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+
+
+    
+    
+
+
+
+    
+
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
